@@ -1,0 +1,16 @@
+load 0000 4
+store 0000 4 12345678
+load 0004 4
+store 0004 4 c0debeef
+load 0008 4
+store 0008 4 11223344
+load 000c 4
+store 000c 4 55667788
+load 0010 4
+store 0010 4 99aabbcc
+load 0014 4
+store 0014 4 ddeeff00
+load 0018 4
+store 0018 4 feedcafe
+load 001c 4
+store 001c 4 ece25001

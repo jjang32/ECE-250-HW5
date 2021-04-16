@@ -1,0 +1,33 @@
+1,16c1,15
+< store 0000 miss
+< load 0000 hit 12345678
+< store 0004 hit
+< load 0004 hit c0debeef
+< store 0008 miss
+< load 0008 hit 11223344
+< store 000c hit
+< load 000c hit 55667788
+< store 0010 miss
+< load 0010 hit 99aabbcc
+< store 0014 hit
+< load 0014 hit ddeeff00
+< store 0018 miss
+< load 0018 hit feedcafe
+< store 001c hit
+< load 001c hit ece25001
+---
+> Error: A JNI error has occurred, please check your installation and try again
+> Exception in thread "main" java.lang.UnsupportedClassVersionError: cachesim has been compiled by a more recent version of the Java Runtime (class file version 58.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+> 	at java.lang.ClassLoader.defineClass1(Native Method)
+> 	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+> 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+> 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+> 	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+> 	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+> 	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+> 	at java.security.AccessController.doPrivileged(Native Method)
+> 	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+> 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+> 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+> 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+> 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:601)

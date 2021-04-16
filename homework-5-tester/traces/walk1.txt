@@ -1,0 +1,8 @@
+load 0000 1
+load 0004 1
+load 0008 1
+load 000c 1
+load 0010 1
+load 0014 1
+load 0018 1
+load 001c 1

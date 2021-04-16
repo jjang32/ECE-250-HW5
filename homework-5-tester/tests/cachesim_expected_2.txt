@@ -1,0 +1,2 @@
+store 0001 miss
+load 0000 miss 00deadbe

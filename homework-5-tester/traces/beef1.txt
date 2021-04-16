@@ -1,0 +1,2 @@
+store 0000 4 deadbeef
+load 0000 4

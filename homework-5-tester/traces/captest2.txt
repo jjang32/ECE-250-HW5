@@ -1,0 +1,93 @@
+store 0000 1 63
+load 0000 1
+load 0000 1
+store 0000 1 99
+load 0000 1
+store 0400 1 89
+load 0400 1
+load 0000 1
+load 0400 1
+store 0000 1 b5
+load 0000 1
+store 0400 1 78
+load 0400 1
+store 0800 1 a0
+load 0800 1
+store 0c00 1 3a
+load 0c00 1
+load 0000 1
+load 0400 1
+load 0800 1
+load 0c00 1
+store 0000 1 c9
+load 0000 1
+store 0400 1 11
+load 0400 1
+store 0800 1 31
+load 0800 1
+store 0c00 1 a4
+load 0c00 1
+store 1000 1 5a
+load 1000 1
+store 1400 1 6f
+load 1400 1
+store 1800 1 3a
+load 1800 1
+store 1c00 1 b6
+load 1c00 1
+load 0000 1
+load 0400 1
+load 0800 1
+load 0c00 1
+load 1000 1
+load 1400 1
+load 1800 1
+load 1c00 1
+store 0000 1 49
+load 0000 1
+store 0400 1 b0
+load 0400 1
+store 0800 1 0f
+load 0800 1
+store 0c00 1 91
+load 0c00 1
+store 1000 1 f6
+load 1000 1
+store 1400 1 8e
+load 1400 1
+store 1800 1 55
+load 1800 1
+store 1c00 1 f0
+load 1c00 1
+store 2000 1 37
+load 2000 1
+store 2400 1 cf
+load 2400 1
+store 2800 1 52
+load 2800 1
+store 2c00 1 1f
+load 2c00 1
+store 3000 1 cc
+load 3000 1
+store 3400 1 c1
+load 3400 1
+store 3800 1 11
+load 3800 1
+store 3c00 1 1c
+load 3c00 1
+load 0000 1
+load 0400 1
+load 0800 1
+load 0c00 1
+load 1000 1
+load 1400 1
+load 1800 1
+load 1c00 1
+load 2000 1
+load 2400 1
+load 2800 1
+load 2c00 1
+load 3000 1
+load 3400 1
+load 3800 1
+load 3c00 1

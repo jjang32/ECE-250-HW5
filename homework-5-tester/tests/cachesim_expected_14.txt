@@ -1,0 +1,16 @@
+load 0000 miss 00000000
+store 0000 hit
+load 0004 hit 00000000
+store 0004 hit
+load 0008 miss 00000000
+store 0008 hit
+load 000c hit 00000000
+store 000c hit
+load 0010 miss 00000000
+store 0010 hit
+load 0014 hit 00000000
+store 0014 hit
+load 0018 miss 00000000
+store 0018 hit
+load 001c hit 00000000
+store 001c hit

@@ -1,0 +1,77 @@
+1,60c1,15
+< store 2899 miss
+< store 2098 miss
+< store 1897 miss
+< store 1096 miss
+< store 0895 miss
+< store 0094 miss
+< store 114f miss
+< store 110e miss
+< store 10cd miss
+< store 108c hit
+< store 104b miss
+< store 100a miss
+< store 087f miss
+< store 0840 hit
+< store 083f miss
+< store 0800 hit
+< store 007f miss
+< store 0040 hit
+< store 003f miss
+< store 0000 hit
+< load 0000 hit 14
+< load 003f hit 13
+< load 0040 hit 12
+< load 007f hit 11
+< load 0800 hit 10
+< load 083f hit 0f
+< load 0840 hit 0e
+< load 087f hit 0d
+< load 0000 hit 14
+< load 003f hit 13
+< load 0040 hit 12
+< load 007f hit 11
+< load 0800 hit 10
+< load 083f hit 0f
+< load 0840 hit 0e
+< load 087f hit 0d
+< load 100a hit 0c
+< load 104b hit 0b
+< load 108c hit 0a
+< load 10cd hit 09
+< load 110e hit 08
+< load 114f hit 07
+< load 0094 hit 06
+< load 0895 hit 05
+< load 1096 hit 04
+< load 1897 hit 03
+< load 2098 hit 02
+< load 2899 hit 01
+< load 100a hit 0c
+< load 104b hit 0b
+< load 108c hit 0a
+< load 10cd hit 09
+< load 110e hit 08
+< load 114f hit 07
+< load 0094 hit 06
+< load 0895 hit 05
+< load 1096 hit 04
+< load 1897 hit 03
+< load 2098 hit 02
+< load 2899 hit 01
+---
+> Error: A JNI error has occurred, please check your installation and try again
+> Exception in thread "main" java.lang.UnsupportedClassVersionError: cachesim has been compiled by a more recent version of the Java Runtime (class file version 58.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+> 	at java.lang.ClassLoader.defineClass1(Native Method)
+> 	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+> 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+> 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+> 	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+> 	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+> 	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+> 	at java.security.AccessController.doPrivileged(Native Method)
+> 	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+> 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+> 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+> 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+> 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:601)

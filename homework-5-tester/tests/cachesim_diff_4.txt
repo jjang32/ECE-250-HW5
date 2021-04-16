@@ -1,0 +1,57 @@
+1,40c1,15
+< load 0000 miss 00
+< load 003f hit 00
+< load 0040 miss 00
+< load 007f hit 00
+< load 0800 miss 00
+< load 083f hit 00
+< load 0840 miss 00
+< load 087f hit 00
+< load 0000 hit 00
+< load 003f hit 00
+< load 0040 hit 00
+< load 007f hit 00
+< load 0800 hit 00
+< load 083f hit 00
+< load 0840 hit 00
+< load 087f hit 00
+< load 100a miss 00
+< load 104b miss 00
+< load 108c miss 00
+< load 10cd miss 00
+< load 110e miss 00
+< load 114f miss 00
+< load 0094 miss 00
+< load 0895 miss 00
+< load 1096 miss 00
+< load 1897 miss 00
+< load 2098 miss 00
+< load 2899 miss 00
+< load 100a hit 00
+< load 104b hit 00
+< load 108c miss 00
+< load 10cd hit 00
+< load 110e hit 00
+< load 114f hit 00
+< load 0094 miss 00
+< load 0895 miss 00
+< load 1096 miss 00
+< load 1897 miss 00
+< load 2098 miss 00
+< load 2899 miss 00
+---
+> Error: A JNI error has occurred, please check your installation and try again
+> Exception in thread "main" java.lang.UnsupportedClassVersionError: cachesim has been compiled by a more recent version of the Java Runtime (class file version 58.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+> 	at java.lang.ClassLoader.defineClass1(Native Method)
+> 	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+> 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+> 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+> 	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+> 	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+> 	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+> 	at java.security.AccessController.doPrivileged(Native Method)
+> 	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+> 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+> 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+> 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+> 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:601)

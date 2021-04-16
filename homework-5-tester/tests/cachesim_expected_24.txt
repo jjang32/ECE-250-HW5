@@ -1,0 +1,2 @@
+store 0000 miss
+load 0001 hit adbeef00
